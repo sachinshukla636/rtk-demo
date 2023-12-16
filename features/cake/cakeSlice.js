@@ -5,7 +5,7 @@ const initialState = {
 };
 
 const cakeSlice = createSlice({
-  name: cake,
+  name: 'cake',
   initialState,
   reducers: {
     ordered: (state) => {
@@ -18,4 +18,4 @@ const cakeSlice = createSlice({
 });
 
 module.exports = cakeSlice.reducer;
-module.exports.cakeAction = cakeSlice.actions;
+module.exports.cakeActions = cakeSlice.actions;
